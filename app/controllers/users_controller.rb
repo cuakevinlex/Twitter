@@ -10,7 +10,7 @@ class UsersController < ApplicationController
 	@user.password = params[:user][:password]
 	@user.save!
 	flash[:notice] = "#{@user.id} is updated"
-	render:show
+	render :show
   end
 	def new
 		@user = User.new
