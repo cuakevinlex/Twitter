@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  #get 'pages/index' # get '/pages/index' => 'pages#index'
+ 
+ #get 'pages/index' # get '/pages/index' => 'pages#index'
 	root 'pages#index'
-
+	resources :users
 
 
   # The priority is based upon order of creation: first created -> highest priority.

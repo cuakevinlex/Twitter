@@ -43,3 +43,6 @@ gem 'spring',        group: :development
 #adding twitter bootstrap
 
 gem 'twitter-bootstrap-rails'
+# rails g bootstrap:install static             to install
+#rails g bootstrap:layout application
+
